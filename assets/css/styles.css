@@ -597,8 +597,14 @@ header{
     margin-bottom: var(--mb-0-75);
 }
 
+.project__data{
+    padding-top: 1.5rem;
+}
 .project__description{
     margin-bottom: var(--mb-1-5);
+}
+.project__button{
+    margin-bottom: 1.5rem;
 }
 
 .project__title,
@@ -610,6 +616,7 @@ header{
     width: 233px;
     justify-self: center;
     border-radius: 3px;
+    margin-top: 2rem;
 }
 /*==================== TESTIMONIAL ====================*/
 
@@ -867,7 +874,7 @@ header{
 
     .nav__icon,
     .nav__close,
-    .nav__toogle{
+    .nav__toggle{
         display: none;
     }
 
@@ -908,6 +915,7 @@ header{
     }
     .about__img{
         width: 350px;
+        height: 350px;
     }
 
     .about__description{
@@ -964,14 +972,14 @@ header{
     .project__container{
         background-color: var(--first-color-second);
         border-radius: 1rem;
-        padding: 3rem 2.5rem 0;
+        padding: 3rem 2.5rem 3rem;
         grid-template-columns: 1fr max-content;
         column-gap: 3rem;
 
     }
 
     .project__data{
-        padding-top: 8rem;
+        padding-top: 1rem;
     }
 
 
