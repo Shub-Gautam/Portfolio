@@ -20,23 +20,28 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class=" nav container">
-                <a href="#" class="nav__logo">Shubham</a>
+                <a href="#" class="nav__logo">Portfolio</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#Home" class="nav__link">
+                            <a href="#home" class="nav__link">
                                 <i class="uil uil-estate nav__icon"></i>Home
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#About" class="nav__link">
+                            <a href="#about" class="nav__link">
                                 <i class="uil uil-user nav__icon"></i>About
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#Skill" class="nav__link">
+                            <a href="#skills" class="nav__link">
                                 <i class="uil uil-file-heart nav__icon"></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualifications" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Qualification
                             </a>
                         </li>
                         <li class="nav__item">
@@ -45,15 +50,11 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#Contacts" class="nav__link">
+                            <a href="#contact" class="nav__link">
                                 <i class="uil uil-message nav__icon"></i>Contacts
                             </a>
                         </li>
-                        <li class="nav__item">
-                            <a href="#Contacts" class="nav__link">
-                                <i class="uil uil-message nav__icon"></i>Hey
-                            </a>
-                        </li>
+                        
                     </ul>
                     <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
@@ -321,7 +322,7 @@
             </section>
 
             <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+            <section class="qualification section" id="qualifications">
                 <h2 class="section__title">Qualification</h2>
                 <span class="section__subtitle">My Personal journey</span>
 
@@ -444,15 +445,51 @@
                 <div class="contact__container container grid">
                     <div>
                         <div class="contact__information">
-                            <i class="uil uil-phone contact__icon"></i>
+                            <i class="uil uil-envelope contact__icon"></i>
 
                             <div>
-                                <h2 class="contact__title">mail me</h2>
+                                <h2 class="contact__title">Email</h2>
                                 <span class="contact__subtitle">skgautam393@gmail.com</span>
                             </div>
                         </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-phone  contact__icon"></i>
+
+                            <div>
+                                <h2 class="contact__title">Call Me</h2>
+                                <span class="contact__subtitle">99999999999</span>
+                            </div>
+                        </div>
                     </div>
-                
+                    
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">  
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">  
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                         
+                        </div>
+
+                        <div>
+                            <a href="" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                                
+                            </a>
+                        </div>
+
+                    </form>
                 </div> 
 
             </section>
@@ -460,7 +497,39 @@
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Shubham</h1>
+                        <span class="footer__subtitle">Computer Science Student</span>
+                    </div>
 
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#Portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#Contact" class="footer__link">Contactme</a>
+                        </li>
+                    </ul>
+
+
+                    <div class="footer__socials">
+                        <a href="www.google.com" class="footer__social" target="blank">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                            
+                        <a href="www.google.com" class="footer__social"target="blank">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
             
         </footer>
         
