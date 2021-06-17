@@ -827,7 +827,7 @@ header{
 }
 
 /* For large devices */
-@media screen and (min-width: 769px){
+@media screen and (min-width: 768px){
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -858,22 +858,28 @@ header{
     }
 
     .nav{
-        height: calc(var(--header-height)+1.5rem);
+        /* height: calc(var(--header-height)+ 1.5rem); */
+        margin-top: 1.5rem;
+        height: 1.5rem;
+        margin-bottom: 1.5rem;
         column-gap: 1rem;
     }
+
     .nav__icon,
     .nav__close,
     .nav__toogle{
         display: none;
     }
+
     .nav__list{
         display: flex;
         column-gap: 2rem;
-
     }
+
     .nav__menu{
         margin-left: auto;
     }
+
     .change-theme{
         margin: 0;
     }
