@@ -517,6 +517,7 @@ header{
 .skills__sketch{
     width: 70%;
 }
+
 .skills__close .skills__list{
     height: 0;
     overflow: hidden;
