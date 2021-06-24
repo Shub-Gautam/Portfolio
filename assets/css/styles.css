@@ -480,7 +480,7 @@ header{
 }
 
 .skills__html{
-    width: 80%;
+    width: 90%;
 }
 
 .skills__css{
@@ -488,34 +488,34 @@ header{
 }
 
 .skills__js{
-    width: 85%;
+    width: 50%;
 }
 
 .skills__react{
-    width: 70%;
+    width: 45%;
 }
 
-.skills__php{
+.skills__SQL{
     width: 80%;
 }
 .skills__node{
-    width: 70%;
+    width: 60%;
 }
 
 .skills__firebase{
+    width: 40%;
+}
+
+.skills__c{
     width: 90%;
 }
 
-.skills__phython{
-    width: 55%;
+.skills__java{
+    width: 85%;
 }
 
-.skills__figma{
-    width: 90%;
-}
-
-.skills__sketch{
-    width: 70%;
+.skills__docker{
+    width: 50%;
 }
 
 .skills__close .skills__list{
@@ -574,6 +574,7 @@ header{
 .qualification__calender{
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
+    margin-bottom: 1.5rem;
 }
 
 .qualification__rounder{
