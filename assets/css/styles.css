@@ -373,6 +373,7 @@ header{
 /*==================== ABOUT ====================*/
 .about__img{
     width: 200px;
+    height: auto;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
@@ -941,7 +942,7 @@ header{
     }
     .about__img{
         width: 350px;
-        height: 350px;
+        height: 550px;
     }
 
     .about__description{
