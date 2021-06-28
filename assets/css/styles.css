@@ -507,6 +507,10 @@ header{
     width: 40%;
 }
 
+.skills__git{
+  width: 80%;
+}
+
 .skills__c{
     width: 90%;
 }
